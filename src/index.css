@@ -1,0 +1,127 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+body{
+  min-height:100vh;
+  font-family: 'Eczar',
+  serif;
+  background-color: rgb(251, 251, 251);
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+
+}
+.heading1 {
+   font-size:3rem;
+   margin: 6vh;
+   border: 7px dotted rgb(177, 14, 247);
+   border-radius: 20px;
+   padding: 1vh 5vw;
+  font-family: 'Satisfy',
+  cursive;
+}
+.cards{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.image{
+  width: 380px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+
+}
+.card{
+  width: 400px;
+  height:max-content;
+  margin:1rem;
+  padding:1rem;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: rgba(11, 9, 9, 0.24) 0px 3px 8px;
+}
+
+.tour_details{
+  margin: 20px 5px;
+}
+
+.price{
+  color: #1faa59;
+  font-size: 1.3rem;
+}
+
+.tour_name {
+  font-size:1.5rem;
+}
+.readmore {
+  color: #12b0e8;
+  cursor: pointer;
+}
+
+.not_interested{
+  margin-top: 18px;
+  padding: 10px 80px;
+  border: 1px solid #b4161b;
+  cursor: pointer;
+  border-radius:   10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #b4161b21;
+}
+
+.not_interested:hover{
+  background-color: red;
+  color: white;
+  transition: all 0.2s;
+}
+
+
+.heading2 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.refresh {
+  margin-top: 18px;
+  padding:10px 80px;
+  border: 1px solid white;
+  cursor: pointer;
+  
+}
+.refresh:hover {
+  background-color:white;
+  color:black;
+  transition: all 0.2s;
+}
